@@ -1,17 +1,16 @@
 {
-  "name": "env-yaml",
-  "version": "0.1.2",
-  "description": "Minimal YAML .env file loader",
+  "name": "dotenv-yaml",
+  "version": "0.1.0",
+  "description": "Minimal YAML .env.yml file loader",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jrwells/env-yaml.git"
+    "url": "https://github.com/lvidarte/dotenv-yaml.git"
   },
-  "author": "Robert Wells",
   "bugs": {
-    "url": "https://github.com/jrwells/env-yaml/issues"
+    "url": "https://github.com/lvidarte/dotenv-yaml/issues"
   },
-  "homepage": "https://github.com/jrwells/env-yaml#readme",
+  "homepage": "https://github.com/lvidarte/dotenv-yaml#readme",
   "dependencies": {
     "js-yaml": "^3.8.4"
   },
