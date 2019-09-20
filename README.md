@@ -16,7 +16,7 @@ You can use the `--require` (`-r`) [command line option](https://nodejs.org/api/
 $ node -r dotenv-yaml/config your_script.js
 ```
 
-Create a `.env.yml` file in the root dirctory of your project, 
+Create a `.env.yml` file in the root directory of your project,
 and add environment-specific variables as valid YAML.
 
 That's it.
