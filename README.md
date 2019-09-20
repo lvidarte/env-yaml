@@ -16,6 +16,12 @@ You can use the `--require` (`-r`) [command line option](https://nodejs.org/api/
 $ node -r dotenv-yaml/config your_script.js
 ```
 
+The configuration options below are supported as command line arguments in the format `dotenv_yaml_config_<option>=value`
+
+```bash
+$ node -r dotenv-yaml/config your_script.js dotenv_yaml_config_path=/custom/path/to/your/env/vars dotenv_yaml_config_encoding=utf8
+```
+
 Create a `.env.yml` file in the root directory of your project,
 and add environment-specific variables as valid YAML.
 
