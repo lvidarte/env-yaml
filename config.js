@@ -11,6 +11,5 @@
       }
     });
   })
-  console.log('[dotenv-yaml] Options:', options);
   require('./lib/index').config(options);
 })()
